@@ -44,13 +44,12 @@ git clone https://github.com/alecshan/sqli-labs-for-docker
 
 3. run it!
 ```bash
-docker-compose up
+docker-compose up -d
 ```
 
 4. 然后在浏览器中访问 : http://127.0.0.1:8080/ , 就可以看到启动的页面了
 
-5. 点击页面中的 [Setup/reset Database for labs] 链接 , 让其进行安装。
-这个过程其实就是创建必要的数据库和表 , 并插入一些测试数据。
+5. 点击 “Setup/reset Database for labs” 进行数据库初始化，返回再点击各个关卡即可开始解题。
 
 6. 测试完成后，停止环境
 ```bash
@@ -92,3 +91,5 @@ volumes:
 
 ## 参考资料 :
 1. [WangYihang/sqli-labs](https://github.com/WangYihang/sqli-labs)
+2. [gr4vit0n/sqli-labs-solution](https://github.com/gr4vit0n/sqli-labs-solution)
+3. [0xs1riu5/sqli-writeup](https://github.com/0xs1riu5/sqli-writeup)
